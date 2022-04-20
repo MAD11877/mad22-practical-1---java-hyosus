@@ -11,6 +11,13 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+    Integer noomber;
+    
+    // Enter username and press Enter
+    System.out.println("Enter number"); 
+    noomber = Integer.parseInt(in.nextLine());   
+       
+    System.out.println("Number is: " + noomber*noomber);
     
   }
 }

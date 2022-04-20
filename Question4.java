@@ -18,6 +18,12 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    Integer noomber;
+    noomber = Integer.parseInt(in.nextLine());
+
+    for(int i=noomber; i>=0; i--){
+      System.out.println("*".repeat(i));
+    }
+
   }
 }

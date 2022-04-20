@@ -15,7 +15,7 @@ public class Question2
     double weight = in.nextDouble();
     
     System.out.print("Input height in metres: ");
-    double height = input.nextDouble();
+    double height = in.nextDouble();
     
 
    double BMI = weight / (height * height);
