@@ -10,11 +10,9 @@ public class Question2
      */
 
     Scanner in = new Scanner(System.in);
-    
-    System.out.print("Input weight in kg: ");
+
     double weight = in.nextDouble();
-    
-    System.out.print("Input height in metres: ");
+
     double height = in.nextDouble();
     
 
