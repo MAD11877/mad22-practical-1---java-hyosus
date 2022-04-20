@@ -14,10 +14,9 @@ public class Question3
     Integer noomber;
     
     // Enter username and press Enter
-    System.out.println("Enter number"); 
     noomber = Integer.parseInt(in.nextLine());   
        
-    System.out.println("Number is: " + noomber*noomber);
+    System.out.println(noomber*noomber);
     
   }
 }
