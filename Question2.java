@@ -3,16 +3,23 @@ import java.util.Scanner;
 public class Question2
 {
   public static void main(String[] Strings) {
+    /**
+     * Prompts user for height and weight, calculate and print out the BMI of the user
+     * 
+     * Hint: in.nextDouble() to read double
+     */
 
-        Scanner input = new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
+    
+    System.out.print("Input weight in kg: ");
+    double weight = in.nextDouble();
+    
+    System.out.print("Input height in metres: ");
+    double height = input.nextDouble();
+    
 
-        System.out.print("Input weight in pounds: ");
-        double weight = input.nextDouble();
-
-        System.out.print("Input height in inches: ");
-        double inches = input.nextDouble();
-
-        double BMI = weight * 0.45359237 / (inches * 0.0254 * inches * 0.0254);
-        System.out.print("Body Mass Index is " + BMI+"\n");
+   double BMI = weight / (height * height);
+   System.out.print("Body Mass Index is " + BMI+"\n");
+    
     }
 }
